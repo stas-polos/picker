@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  picker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    tty: true
+    command: ["sleep", "infinity"]
+  
