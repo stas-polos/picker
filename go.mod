@@ -1,3 +1,3 @@
 module github.com/stas-polos/picker
 
-go 1.22
+go 1.22.0
